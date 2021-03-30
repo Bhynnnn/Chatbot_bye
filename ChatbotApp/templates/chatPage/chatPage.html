@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-
+{% load static %}
 <head>
     <meta charset="utf-8">
-    <link href="chatPage.css" rel="stylesheet" type="text/css" />
+    <link href="{% static 'css/chatPage.css' %}" rel="stylesheet" type="text/css" />
     <title>KNU CHATBOT</title>
     <script src="chatPage.js"></script>
 </head>
@@ -21,7 +21,7 @@
                 <input type="button" class="addInforBtn" value="추가정보기입하기" onclick="location.href='../login-grades/grades.html'">
             </span>
             <span class="logout">
-                <input type="button" class="logoutBtn" value="로그아웃" onclick="location.href='../login/login.html'">
+                <input type="button" class="logoutBtn" value="로그아웃" onclick="location.href='../'">
             </span>
 
         </div>

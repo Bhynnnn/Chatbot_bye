@@ -1,14 +1,15 @@
 <!DOCTYPE html>
+{% load static %}
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="grades.css">
+<link rel="stylesheet" type="text/css" href="{% static 'css/grade.css' %}">
 <meta charset="UTF-8">
 <title>강남대학교 챗봇</title>
 </head>
 <body>
 	<strong><pre>  추가정보(선택)</pre></strong>
 	<strong><pre>  학점 기입</pre></strong>
-	<button id="save" onclick="location.href='../register/register.html'">저장하기</button>
+	<button id="save" onclick="location.href='register'">저장하기</button>
 	<div class="grademain" style="text-align: left">
 
 		<input id="tab1" type="radio" name="tabs" checked> <label

@@ -20,7 +20,10 @@ import ChatbotApp.views
 
 urlpatterns = [
     path('', ChatbotApp.views.login, name='login'),
+    path('login/', ChatbotApp.views.login, name='login'),
     path('chatPage/', ChatbotApp.views.chatPage, name='chatPage'),
+    path('register/', ChatbotApp.views.register, name='register'),
+    path('grades/', ChatbotApp.views.grades, name='grades'),
     path('admin/', admin.site.urls),
 
 

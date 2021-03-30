@@ -8,3 +8,10 @@ def chatPage(request):
 
 def login(request):
     return render(request, 'login/login.html')
+
+def register(request):
+    return render(request, 'register/register.html')
+
+def grades(request):
+    return render(request, 'login-grades/grades.html')
+
