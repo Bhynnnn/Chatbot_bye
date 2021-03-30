@@ -15,14 +15,16 @@
 
 
 	<div class="main">
+        <form method="post" class="post-form" action="{% url 'login.html' %}">
         <div>
             <input class="ID" type="text" placeholder="ID">
         </div>
         <div>
             <input class="PW" type="password" placeholder="PW">
         </div>
-	</div>
+            </form>
 
+    </div>
 
 	<div class="footer">
             <input class="loginbtn" type="button" value="로그인" onclick="location.href='chatPage'">
