@@ -13,5 +13,5 @@ def register(request):
     return render(request, 'register/register.html')
 
 def grades(request):
-    return render(request, 'login-grades/grades.html')
+    return render(request, 'grades/grades.html')
 
