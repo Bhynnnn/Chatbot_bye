@@ -9,7 +9,7 @@ class Member(models.Model):
     userName = models.CharField(max_length=10, verbose_name='이름')
     userID = models.CharField(max_length=10, verbose_name='학번(ID)')
     userPassword = models.CharField(max_length=100, verbose_name='pw')
-    useremail = models.EmailField(max_length=100, verbose_name='이메일')
+    userEmail = models.EmailField(max_length=100, verbose_name='이메일')
 
     def __str__(self):
         # 생성되는 객체의 타입을 문자열로 변환해서 보여주게 한다.
