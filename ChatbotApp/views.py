@@ -15,3 +15,4 @@ def register(request):
 def grades(request):
     return render(request, 'grades/grades.html')
 
+

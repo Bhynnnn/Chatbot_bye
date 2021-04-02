@@ -25,6 +25,7 @@ urlpatterns = [
     path('register/', ChatbotApp.views.register, name='register'),
     path('grades/', ChatbotApp.views.grades, name='grades'),
     path('admin/', admin.site.urls),
+    path('user/', include('ChatbotApp.urls')),
     path('login/', include('login.urls')),
 
 
